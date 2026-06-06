@@ -2,7 +2,6 @@
 #include "../include/TimedDoor.h"
 
 #include <chrono>
-#include <stdexcept>
 #include <thread>
 
 #include <gmock/gmock.h>

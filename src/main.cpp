@@ -1,9 +1,9 @@
 // Copyright 2026 Yakimov
-#include "../include/TimedDoor.h"
-
-#include <chrono>
 #include <iostream>
-#include <thread>
+#include <string>
+#include <memory>
+
+#include "../include/TimedDoor.h"
 
 int main() {
   try {
