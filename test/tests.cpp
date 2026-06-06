@@ -1,14 +1,13 @@
 // Copyright 2026 Yakimov
 
-#include <chrono>
-#include <thread>
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 
-#include "../include/TimedDoor.h"
+#include <stdexcept>
+#include <thread>
+#include <chrono>
 
-using ::testing::_;
-using ::testing::Return;
+#include "../include/TimedDoor.h"
 
 class MockTimerClient : public TimerClient {
  public:
