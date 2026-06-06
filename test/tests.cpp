@@ -1,11 +1,10 @@
 // Copyright 2026 Yakimov
 #include "../include/TimedDoor.h"
 
-#include <chrono>
-#include <thread>
-
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
+#include <chrono>
+#include <thread>
 
 using ::testing::_;
 using ::testing::Return;
